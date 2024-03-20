@@ -18,6 +18,7 @@ from plugins.score.score import score
 from plugins.essence.essence import essence
 from plugins.nudge.nudge import nudge
 from plugins.chatgpt.chatgpt import chatgpt
+from choosing_helper.choosing_helper import choosing_helper
 
 from plugins.image.image import image
 from plugins.genshin.genshin import genshin
@@ -42,6 +43,7 @@ bot.register_plugin(score)
 bot.register_plugin(essence)
 bot.register_plugin(nudge)
 bot.register_plugin(chatgpt)
+bot.register_plugin(choosing_helper)
 
 bot.register_plugin(image)
 bot.register_plugin(genshin)
